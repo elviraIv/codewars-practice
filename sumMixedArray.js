@@ -14,3 +14,7 @@ function sumMix(x) {
 
   return digits.reduce((acc, curr) => curr + acc, 0);
 }
+
+// function sumMix(x) {
+//   return x.map((el) => Number(el)).reduce((acc, curr) => acc + curr, 0);
+// }
